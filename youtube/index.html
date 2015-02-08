@@ -108,13 +108,13 @@
 				var videoId = snippet['resourceId']['videoId'];
 				if (i == 0) {
 					html
-							.push('<div class="row"><div class="col-xs-12"><iframe src="//www.youtube.com/embed/', videoId, '" frameborder="0" height="150"></iframe></div></div>');
+							.push('<div class="row"><div class="col-xs-12"><iframe src="//youtube.com/embed/', videoId, '" frameborder="0" height="150"></iframe></div></div>');
 				} else {
 					if (i % 2 == 1) {
 						html.push('<div class="row">');
 					}
 					html
-							.push('<div class="col-xs-12 col-ms-12 col-sm-12 col-md-6"><iframe src="//www.youtube.com/embed/', videoId, '" frameborder="0" height="150"></iframe></div>');
+							.push('<div class="col-xs-12 col-ms-12 col-sm-12 col-md-6"><iframe src="//youtube.com/embed/', videoId, '" frameborder="0" height="150"></iframe></div>');
 					if (i % 2 == 0 || i == items.length - 1) {
 						html.push('</div>');
 					}
